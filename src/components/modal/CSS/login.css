@@ -1,0 +1,46 @@
+.size-image {
+    width: 85px;
+    height: 75px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.email-Input {
+    width: 90%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-top: 69px;
+    z-index: 2;
+}
+
+.pass-Input {
+    width: 90%;
+    padding: 12px 20px;
+    margin-top: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+
+.button-login {
+    cursor: pointer;
+    background-color: #ff695e;
+    width: 90%;
+    height: 43px;
+    border-radius: 4px;
+    color: white;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+    border: 1.8px solid #ff695e;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5%;
+}

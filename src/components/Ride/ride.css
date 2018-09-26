@@ -1,0 +1,11 @@
+.ride {
+    width: 600px;
+    height: 250px;
+    margin-left: 62px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    color: #000;
+    margin-top: 10px;
+    opacity: 0.6;
+}

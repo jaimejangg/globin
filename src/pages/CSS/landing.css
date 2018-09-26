@@ -1,0 +1,94 @@
+.logotipo {
+  display: inline-block;
+  padding: 10px;
+  height: 60px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.section1 {
+  background-image: url(../../images//globin_fondo.png);
+  background-size: cover;
+  height: 770px;
+  width: 100%;
+  box-shadow: 0 0 10px #353534;
+}
+
+.h2Section1PositionContainer {
+  padding-top: 200px;
+  padding-left: 80px;
+  animation-name: aparece;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+@keyframes aparece {
+  0% {
+    opacity: 0;
+    padding-left: 0px;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    padding-left: 80px;
+  }
+}
+
+.section2 {
+  background-image: url(../../images/cityfunding.png);
+  background-size: 100% 460px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 812px;
+  width: 100%;
+  background-color: white;
+}
+
+.h2Section2PositionContainer {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.h1Section2Position {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  margin-top: 105px
+}
+
+.section3 {  
+  height: 812px;
+  width: 100%;
+}
+
+.h1Section3Position {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  margin-top: 105px
+}
+
+.smartHub {
+    position: relative;
+    left: 32%;
+    top: 100px;
+    height: 340px;
+    width: 500px;
+}
+
+.section4 {
+  background-image: url(../../images/monte.png);
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+}

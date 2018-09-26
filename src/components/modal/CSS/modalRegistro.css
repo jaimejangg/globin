@@ -1,0 +1,26 @@
+.cerrar {
+    float: right;
+    margin-right: 17px;
+    margin-top: 10px;
+}
+
+.buttonRegistro {
+    cursor: pointer;
+    background-color: transparent;
+    width: 97px;
+    height: 36px;
+    border-radius: .28571429rem;
+    color: #ff695e;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+    border: 1.8px solid #ff695e;
+    float: right;
+    margin-top: 13px;
+    margin-right: 50px;
+}
+
+.buttonRegistro:hover {
+    background-color: #ff695e;
+    color: white;
+}

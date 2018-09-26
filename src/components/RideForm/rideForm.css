@@ -1,0 +1,20 @@
+.rideForm {
+    position: absolute;
+    top: 700px;
+    left: 560px;
+}
+
+.rideForm input[type='text'] {
+    padding: 20px;
+}
+
+.rideForm button {
+    padding: 20px;
+    color: #fff;
+    background: #019875;
+    border: none;
+}
+
+.rideForm button:hover {
+    background-color: #02bab5;
+}

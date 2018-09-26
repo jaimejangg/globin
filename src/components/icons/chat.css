@@ -1,0 +1,28 @@
+.svg-icon {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #073452;
+  }
+  
+  .svg-icon circle {
+    stroke: #073452;
+    stroke-width: 1;
+  }
+
+  .icon-chat {
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    border-radius: 5px;
+  }
+
+  .icon-chat:hover {
+    background-color: #E8EFF7;
+  }

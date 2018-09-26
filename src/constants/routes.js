@@ -1,0 +1,9 @@
+export const SIGN_UP = '/registrarse';
+export const SIGN_IN = '/entrar';
+export const NEGOCIOS = '/negocios';
+export const LANDING = '/';
+export const HOME = '/home';
+export const CHAT = '/chat';
+export const NOTIFICACIONES = '/notificaciones';
+export const ACCOUNT = '/account';
+export const PASSWORD_FORGET = '/pw-forget';

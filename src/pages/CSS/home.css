@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 94%;
+}
+
+.col-1 {
+    background-color: white;
+    width: 25%;
+    height: 100%;
+}
+
+.location-Image {
+    background-image: url(../../images/yahua.png);
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+}
+
+.opciones-Div-azul {
+    margin-top: 10px;
+    margin-left: 7.5%;
+    background-color:  #E8EFF7;
+    width: 85%;
+    height: 12%;
+    border-radius: 15px;
+}
+
+.opciones-div {
+    height: 57%;
+    width: 100%;
+    background-color: white;
+}
+
+.boton-salir {
+    position: absolute;
+    cursor: pointer;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: .28571429rem;
+    color: #073452;
+    border: 1.8px solid #ff695e;
+    top: 740px;
+    left: 10px;
+}
+
+.boton-salir:hover {
+    background-color: #E8EFF7;
+    color: #073452;
+    border: 1.8px solid #ff695e;
+}
+
+.container-option {
+    padding-top: 15px;
+    height: 26px;
+}
+
+.canal-option {
+    align-items: center;
+    display: flex;
+    height: 26px;
+    margin: 0;
+    padding: 0 12px 0 15px;
+    width: 100%;
+}
+
+.h3-canal-option {
+    position: absolute;
+    color: #494949; 
+}
+
+.logotipo-redondo {
+    position: relative;
+    display: block;
+    height: 67px;
+    width: 70px;
+    position: absolute;
+    top: 255px;
+    left: 40px;
+  }
+
+.col-2 {
+    background-color: #E8EFF7;
+    width: 50%;
+    height: 100%;
+}
+
+.col-3 {
+    background-color: white;;
+    width: 25%;
+    height: 100%;
+}
